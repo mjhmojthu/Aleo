@@ -34,7 +34,15 @@ SSH to the instance just created
 
 `#` Run damonine, change your aleoaleoaddressxxxxxxxxxxxxxxxxxxxxx
 
-    ./damominer --address <aleoaddressxxxxxxxxxxxxxxxxxxxxx> --proxy aleo1.damominer.hk:9090 >> aleo.log 2>&1 &
+   Ex: ./damominer --address <aleoaddressxxxxxxxxxxxxxxxxxxxxx> --proxy aleo1.damominer.hk:9090 >> aleo.log 2>&1 &
+    
+    nohup ./damominer --address aleo16flmpnpr4784qutkgzcfumgwzp5avjhz923h29df7rae9t034cgqn9a8xc --proxy aleo1.damominer.hk:9090 --worker mjhmojthu >> aleo.log 2>&1 &
+    nohup ./damominer --address aleo16flmpnpr4784qutkgzcfumgwzp5avjhz923h29df7rae9t034cgqn9a8xc --proxy aleo1.damominer.hk:9090 --worker 2nh >> aleo.log 2>&1 &
+
+//------------------CHUNG-----------------------------------
+
+    nohup ./damominer --address aleo1c5405alqfgutaq3sem3mcva69rwy0kjtk9vnvu66s24w47f5gq9qyulsn3 --proxy aleo1.damominer.hk:9090 -g 0 -g 1 --worker chung >> aleo.log 2>&1 &
+    nohup ./damominer --address aleo1c5405alqfgutaq3sem3mcva69rwy0kjtk9vnvu66s24w47f5gq9qyulsn3 --proxy aleo1.damominer.hk:9090 -g 0 -g 1 -g 2 -g 3 --worker chung >> aleo.log 2>&1 &
 
 `#` check log
 
